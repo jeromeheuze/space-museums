@@ -95,7 +95,7 @@ $(document).ready(function() {
     </div>
 </div>
 <div id="footer">
-    <p>Copyright <?php echo date("Y"); ?> - All Rights Reserved - Project Created by <a href="http://www.heuze-production.com/" target="_blank">HEUZE Production</a></p>
+    <p>Copyright <?php echo date("Y"); ?> - All Rights Reserved - Project Created by <a href="http://nebulastudio.net/" target="_blank">Nebula Studio, LLC</a></p>
 </div>
 <script type="text/javascript" src="http://wms.assoc-amazon.com/20070822/US/js/link-enhancer-common.js?tag=spacmuse-20">
 </script>

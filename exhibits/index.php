@@ -79,7 +79,7 @@ $(document).ready(function() {
     </div>
 </div>
 <div id="footer">
-    <p>Copyright <?php echo date("Y"); ?> - All Rights Reserved - Project Created by <a href="http://www.heuze-production.com/" target="_blank">HEUZE Production</a></p>
+    <p>Copyright <?php echo date("Y"); ?> - All Rights Reserved - Project Created by <a href="http://nebulastudio.net/" target="_blank">Nebula Studio, LLC</a></p>
 </div>
 </body>
 </html>
