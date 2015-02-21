@@ -10,6 +10,6 @@ $OFFLINE = 0;
 
 //Feature VARS
 $ENABLE_STATE = 0;
-$ENABLE_STORE = 1;
+$ENABLE_STORE = 0;
 ?>
 <? date_default_timezone_set('America/Los_Angeles'); ?>
