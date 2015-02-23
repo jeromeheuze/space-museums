@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>SPACE Museums - 404</title>
 <link rel="icon" type="image/png" href="http://space-museums.com/favicon.png">
-<link rel="stylesheet" href="/css/style.css" type="text/css" />
+<link rel="stylesheet" href="/css/custom.css" type="text/css" />
 <?php include("includes/ga.php"); ?>
 </head>
 

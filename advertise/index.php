@@ -7,7 +7,7 @@
 <link rel="icon" type="image/png" href="http://space-museums.com/favicon.png">
 <meta name="description" content="SPACE Museums - Where to find Space Activities and Exhibits about Space.">
 <meta name="abstract" content="SPACE Museums - Where to find Space Activities and Exhibits about Space.">
-<link rel="stylesheet" href="/css/style.css" type="text/css" />
+<link rel="stylesheet" href="/css/custom.css" type="text/css" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <!-- colorbox -->
 <script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
