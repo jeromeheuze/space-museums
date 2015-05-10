@@ -23,17 +23,13 @@ foreach($html->find('.BGnews table table table') as $a) {
 	$link = "http://www.cosmo.org/newsroom/".$chklink;
 
 	if ( ($title != '')&&($chklink != '') ) {
-		
-		
-		$bquery = "SELECT * FROM news_ext WHERE link='".$link."'";
-		$result = mysql_query($bquery);// or die("Error: ". mysql_error(). " with query ". $bquery);
-		$num_rows = mysql_num_rows($result);
+
+		$result = mysqli_query($mysqli,"SELECT count(*) FROM news_ext WHERE link='".$link."'");
+		$num_rows = $result->fetch_row($result);
 
 		if ($num_rows == 0) {
-			$query = "INSERT INTO news_ext VALUES ('','$title','$link','$museums_id')";
-			mysql_query($query);
-			echo "<li>".$title."<br />".$link."<br /><strong>### ACTION: ";
-			echo "added</strong></li>";
+            mysqli_query($mysqli, "INSERT INTO news_ext VALUES ('','$title','$link','$museums_id')");
+			echo "<li>".$title."<br>".$link."<br><strong>### ACTION: added</strong></li>";
 		} else {
 			//echo "duplicate</strong></li>";
 		}
@@ -42,7 +38,5 @@ foreach($html->find('.BGnews table table table') as $a) {
 }
 	
 echo "</ol>";
-mysql_free_result($result);
 
 include ('bin/db/closedb.php');
-?>

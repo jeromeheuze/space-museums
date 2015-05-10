@@ -1,4 +1,6 @@
 <?php
-$conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ('Error connecting to mysql');
-mysql_select_db($dbname, $conn);
-?>
+$mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
